@@ -5,48 +5,116 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio - Dhiego Balthazar</title>
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:wght@300&display=swap');
+    
+        body{
+            font-family: 'Ubuntu', sans-serif;
+            background-color: #1E101D;
+            color:white;
+            font-size: 16px;
+            line-height: 1.4;
+        }
+
+        h1, h2, h3{
+            color: #db991f;
+        }
+
+        #hero-title{
+            font-family: 'Bebas Neue', cursive;
+            font-size: 3em;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+        }
+        img{
+            width: 300px;
+        }
+        #nationality{
+            font-weight: 600;
+        }
+
+        .uml{
+            font-size: 14px;
+        }
+        .modelagem{
+            font-size: 16px;
+        }
+
+        .sql{
+            font-size: 18px;
+        }
+        .php{
+            font-size: 20px;
+        }
+
+        .codeigniter{
+            font-size: 22px;
+        }
+
+        .composer{
+            font-size: 24px;
+        }
+
+        .html5{
+            font-size: 26px;
+        }
+
+        .poo{
+            font-size: 28px;
+        }
+
+        .planilhas{
+            font-size: 30px;
+        }
+    </style>
 </head>
 <body>
     <ul>
         <li>
-            <a href="#sobre-mim">Sobre Mim</a>
+            <a href="#about-me">Sobre Mim</a>
         </li>
         <li>
-            <a href="#habilidades-adquiridas">Habilidades Aprendidas</a>
+            <a href="#skills-acquired">Habilidades Aprendidas</a>
         </li>
         <li>
-            <a href="#habilidades-aprendisagem">Habilidades em Apredizagem</a>
+            <a href="#skills-learning">Habilidades em Apredizagem</a>
         </li>
         <li>
             <a href="#blogs">Blogs</a>
         </li>
     </ul>
     <hr>
-    <img id="perfil" src="/img/perfil.jpeg" alt="foto de perfil">
-    <h1>Dhiego Henrique Balthazar de Sousa</h1>
+    <img id="profile-image" src="/img/perfil.jpeg" alt="foto de perfil">
+    <h1 id="hero-title">Dhiego Henrique Balthazar de Sousa</h1>
     <h2><em>Estudante de desenvolvimento web na Trybe</em></h2>
-    <h3 id="sobre-mim">Sobre Mim</h3>
-    <p>Sou Brasileiro, moro em <em>Caraguatatuba-SP</em>, sou estudante de Desenvolvimento WEB a Trybe e líder de setor na Diretoria de Ensino de Caraguatatuba.</p>
-    <p>Fui instrutor de lógica de programação no Programa Escola da Familia em Escolas Estaduais, <strong>adoro</strong> aprender coisas novas, transmitir conhecimento e ver a evolução das pessoas.</p>
-    <p>Nas minhas horas vagas eu jogo D&D5e com meus filhos e os ensino criação de jogos com RPG maker.</p>
+    <p id="nationality">Brasileiro, moro em Caraguatatuba - SP</p>
+    <h3 id="about-me">Sobre Mim</h3>
+    Sou estudante de Desenvolvimento WEB a Trybe e líder de setor na Diretoria de Ensino de Caraguatatuba.</p>
+    <p>Fui instrutor de lógica de programação com PHP no Programa Escola da Familia em Escolas Estaduais, <strong>adoro</strong> aprender coisas novas, transmitir conhecimento e ver a evolução das pessoas.</p>
+    <p>Nas minhas horas vagas eu jogo D&D5e com meus filhos e os ensino como criar jogos com o RPG maker.</p>
     <hr>
-    <h3 id="habilidades-adquiridas">Habilidades adquiridas - Hard Skills</h3>
-    <img src="/img/skills.jpg" alt="imagem escrito skills" width="300px">
+    <h3 id="skills-acquired">Habilidades adquiridas - Hard Skills</h3>
+    <img src="/img/skills.jpg" alt="imagem escrito skills">
     <ul>
-        <li>UML</li>
-        <li><strong>Modelagem de Banco de Dados</strong></li>
-        <li>SQL</li>
-        <li>PHP</li>
-        <li>Codeigniter</li>
-        <li>Composer</li>
-        <li>HTML5</li>
-        <li>JAVA</li>
-        <li>Planilhas GOOGLE e Excel(VBA)</li>
+        <li class="uml">UML</li>
+        <li class="modelagem">Modelagem de Banco de Dados</li>
+        <li class="sql">SQL</li>
+        <li class="php">PHP</li>
+        <li class="codeigniter">Codeigniter</li>
+        <li class="composer">Composer</li>
+        <li class="html5">HTML5</li>
+        <li class="poo">POO</li>
+        <li class="planilhas">Planilhas GOOGLE e Excel(VBA)</li>
     </ul>
-    <a href="#perfil">Voltar para foto</a>
+    <a href="#profile-image">Voltar para foto</a>
     <hr>
-    <h3 id="habilidades-aprendisagem">Habilidades em aprendizagem - Trybe</h3>
-    <img src="/img/learning.jpeg" width="300px" alt="imagem escrito learning">
+    <h3 id="skills-learning">Habilidades em aprendizagem - Trybe</h3>
+    <img src="/img/learning.jpeg" alt="imagem escrito learning">
     <ul>
         <li>Unix & Bash</li>
         <li>HTML</li>
@@ -54,13 +122,13 @@
         <li>Javascript</li>
         <li>Soft Skils</li>
     </ul>
-    <a href="#perfil">Voltar para foto</a>
+    <a href="#profile-image">Voltar para foto</a>
     <hr>
     <h3 id="blogs">Blogs que Sigo</h3>
     <ul>
         <li><a href="https://developerslife.tech/pt/" target="_blank">Vida de Programador</a></li>
         <li><a href="https://meublogderpg.wordpress.com/tag/dd-5e/" target="_blank">Meu Blog de RPG</a></li>
     </ul>
-    <a href="#perfil">Voltar para foto</a>
+    <a href="#profile-image">Voltar para foto</a>
 </body>
 </html>
