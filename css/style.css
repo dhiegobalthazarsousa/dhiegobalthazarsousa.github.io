@@ -52,16 +52,21 @@ a {
 
 #profile-box{
     width: 80%;
-    margin:auto;
+    margin-top: 30px;
+    margin-left:auto;
+    margin-right: auto;
 }
-
+#name-box{
+    text-align: center;
+}
 #description-profile-box{
     width: 60%;
 }
 
 #img-profile-box{
     width: 35%;
-
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.068);
 }
 
 #hero-title {
