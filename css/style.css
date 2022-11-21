@@ -13,10 +13,9 @@ body {
     line-height: 1.5;
 }
 
-h1,
-h2,
-h3 {
+h1,h2,h3 {
     color: #db991f;
+    font-weight: 600;
 }
 
 a {
@@ -48,6 +47,7 @@ a {
 
 #content-box{
     padding: 10px;
+    display: table;
 }
 
 #profile-box{
@@ -59,63 +59,55 @@ a {
 #name-box{
     text-align: center;
 }
-#description-profile-box{
-    width: 60%;
-}
-
-#img-profile-box{
-    width: 35%;
-    padding: 10px;
-    background-color: rgba(128, 128, 128, 0.068);
-}
 
 #hero-title {
     font-family: 'Bebas Neue', cursive;
     font-size: 3em;
 }
 
+#description-profile-box{
+    max-width: 60%;
+    text-align: justify;
+}
+
+#img-profile-box{
+    min-width: 35%;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.068);
+}
+
 #profile-image{
     border-radius: 50%;
 }
 
-#nationality {
-    font-weight: 600;
+#skills-aquired-box{
+    height: 400px;
+    
 }
 
-.uml {
-    font-size: 14px;
+#skills-aquired-box img{
+    width: 600px;
 }
 
-.modelagem {
-    font-size: 16px;
+#skills-aquired-list{
+    padding-top: 60px;
+    padding-right: 60px;
 }
 
-.sql {
-    font-size: 18px;
+#skills-aquired-list ul li:nth-of-type(2n+1){
+    text-decoration: underline;
 }
 
-.php {
-    font-size: 20px;
+.margin-top{
+    margin-top: 30px;
 }
 
-.codeigniter {
-    font-size: 22px;
+.float-right{
+    float: right;
 }
 
-.composer {
-    font-size: 24px;
-}
-
-.html5 {
-    font-size: 26px;
-}
-
-.poo {
-    font-size: 28px;
-}
-
-.planilhas {
-    font-size: 30px;
+.float-left{
+    float: left;
 }
 
 .inline-box{
