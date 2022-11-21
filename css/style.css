@@ -23,11 +23,6 @@ a {
     text-decoration: none;
 }
 
-img {
-    width: 300px;
-}
-
-
 #navbar{
     text-align: right;
     padding: 20px;
@@ -55,18 +50,22 @@ img {
     padding: 10px;
 }
 
-#description-box{
+#profile-box{
+    width: 80%;
+    margin:auto;
+}
+
+#description-profile-box{
+    width: 60%;
 }
 
 #img-profile-box{
+    width: 35%;
 }
 
 #hero-title {
     font-family: 'Bebas Neue', cursive;
     font-size: 3em;
-}
-
-#profile-box{
 }
 
 #profile-image{
