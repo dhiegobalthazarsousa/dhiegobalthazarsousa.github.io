@@ -1,116 +1,79 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio - Dhiego Balthazar</title>
-    <style>
-        
-        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:wght@300&display=swap');
-    
-        body{
-            font-family: 'Ubuntu', sans-serif;
-            background-color: #1E101D;
-            color:white;
-            font-size: 16px;
-            line-height: 1.4;
-        }
-
-        h1, h2, h3{
-            color: #db991f;
-        }
-
-        #hero-title{
-            font-family: 'Bebas Neue', cursive;
-            font-size: 3em;
-        }
-
-        a{
-            text-decoration: none;
-            color: white;
-            font-weight: 600;
-        }
-        img{
-            width: 300px;
-        }
-        #nationality{
-            font-weight: 600;
-        }
-
-        .uml{
-            font-size: 14px;
-        }
-        .modelagem{
-            font-size: 16px;
-        }
-
-        .sql{
-            font-size: 18px;
-        }
-        .php{
-            font-size: 20px;
-        }
-
-        .codeigniter{
-            font-size: 22px;
-        }
-
-        .composer{
-            font-size: 24px;
-        }
-
-        .html5{
-            font-size: 26px;
-        }
-
-        .poo{
-            font-size: 28px;
-        }
-
-        .planilhas{
-            font-size: 30px;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
+
 <body>
-    <ul>
-        <li>
-            <a href="#about-me">Sobre Mim</a>
-        </li>
-        <li>
-            <a href="#skills-acquired">Habilidades Aprendidas</a>
-        </li>
-        <li>
-            <a href="#skills-learning">Habilidades em Apredizagem</a>
-        </li>
-        <li>
-            <a href="#blogs">Blogs</a>
-        </li>
-    </ul>
-    <hr>
-    <img id="profile-image" src="/img/perfil.jpeg" alt="foto de perfil">
-    <h1 id="hero-title">Dhiego Henrique Balthazar de Sousa</h1>
-    <h2><em>Estudante de desenvolvimento web na Trybe</em></h2>
-    <p id="nationality">Brasileiro, moro em Caraguatatuba - SP</p>
-    <h3 id="about-me">Sobre Mim</h3>
-    Sou estudante de Desenvolvimento WEB a Trybe e líder de setor na Diretoria de Ensino de Caraguatatuba.</p>
-    <p>Fui instrutor de lógica de programação com PHP no Programa Escola da Familia em Escolas Estaduais, <strong>adoro</strong> aprender coisas novas, transmitir conhecimento e ver a evolução das pessoas.</p>
-    <p>Nas minhas horas vagas eu jogo D&D5e com meus filhos e os ensino como criar jogos com o RPG maker.</p>
-    <hr>
-    <h3 id="skills-acquired">Habilidades adquiridas - Hard Skills</h3>
-    <img src="/img/skills.jpg" alt="imagem escrito skills">
-    <ul>
-        <li class="uml">UML</li>
-        <li class="modelagem">Modelagem de Banco de Dados</li>
-        <li class="sql">SQL</li>
-        <li class="php">PHP</li>
-        <li class="codeigniter">Codeigniter</li>
-        <li class="composer">Composer</li>
-        <li class="html5">HTML5</li>
-        <li class="poo">POO</li>
-        <li class="planilhas">Planilhas GOOGLE e Excel(VBA)</li>
-    </ul>
+    <div id="navbar">
+        <ul>
+            <li>
+                <a href="#about-me">Sobre Mim</a>
+            </li>
+            <li>
+                <a href="#skills-acquired">Habilidades Aprendidas</a>
+            </li>
+            <li>
+                <a href="#skills-learning">Habilidades em Apredizagem</a>
+            </li>
+            <li>
+                <a href="#blogs">Blogs</a>
+            </li>
+        </ul>
+    </div>
+    <div id="content-box">
+        <div id="header-box">
+            <div id="name-box">
+                <h1 id="hero-title">Dhiego Henrique Balthazar de Sousa</h1>
+                <h2><em>Estudante de desenvolvimento web na Trybe</em></h2>
+                <p id="nationality">Brasileiro, moro em Caraguatatuba - SP</p>
+            </div>
+            <div id="profile-box">
+                <div id="img-profile-box" class="inline-box">
+                    <img id="profile-image" src="/img/perfil.jpeg" alt="foto de perfil">
+                </div>
+                <div id="description-profile-box" class="inline-box">
+                    <h3 id="about-me">Sobre Mim</h3>
+                    <p>Sou estudante de Desenvolvimento WEB a Trybe e líder de setor na Diretoria de Ensino de
+                        Caraguatatuba.</p>
+                    <p>Fui instrutor de lógica de programação com PHP no Programa Escola da Familia em Escolas
+                        Estaduais,
+                        <strong>adoro</strong> aprender coisas novas, transmitir conhecimento e ver a evolução das
+                        pessoas.
+                    </p>
+                    <p>Nas minhas horas vagas eu jogo D&D5e com meus filhos e os ensino como criar jogos com o RPG
+                        maker.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="skills-aquired-box" class="margin-top">
+            <h3 id="skills-acquired">Habilidades adquiridas - Hard Skills</h3>
+            <div id="skills-aquired-img" class="inline-box float-right">
+                <img src="/img/skills.jpg" alt="imagem escrito skills">
+            </div>
+            <div id="skills-aquired-list" class="inline-box float-right">
+                <ul>
+                    <li>UML</li>
+                    <li>Modelagem de Banco de Dados</li>
+                    <li>SQL</li>
+                    <li>PHP</li>
+                    <li>Codeigniter</li>
+                    <li>Composer</li>
+                    <li>HTML5</li>
+                    <li>POO</li>
+                    <li>Planilhas GOOGLE e Excel(VBA)</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
     <a href="#profile-image">Voltar para foto</a>
     <hr>
     <h3 id="skills-learning">Habilidades em aprendizagem - Trybe</h3>
@@ -131,4 +94,5 @@
     </ul>
     <a href="#profile-image">Voltar para foto</a>
 </body>
+
 </html>

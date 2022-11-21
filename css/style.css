@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #1E101D;
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1,h2,h3 {
+    color: #db991f;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+}
+
+#navbar{
+    text-align: right;
+    padding: 20px;
+    background-color: rgb(31, 31, 31);
+}
+
+#navbar ul{
+    list-style: none;
+}
+
+#navbar ul li{
+    display: inline;
+    margin-right: 10px;
+}
+
+#navbar ul li a{
+    color:white;
+}
+
+#navbar ul li a:hover{
+    font-weight: 700;
+}
+
+#content-box{
+    padding: 10px;
+    display: table;
+}
+
+#profile-box{
+    width: 80%;
+    margin-top: 30px;
+    margin-left:auto;
+    margin-right: auto;
+}
+#name-box{
+    text-align: center;
+}
+
+#hero-title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3em;
+}
+
+#description-profile-box{
+    max-width: 60%;
+    text-align: justify;
+}
+
+#img-profile-box{
+    min-width: 35%;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.068);
+}
+
+#profile-image{
+    border-radius: 50%;
+}
+
+#skills-aquired-box{
+    height: 400px;
+    
+}
+
+#skills-aquired-box img{
+    width: 600px;
+}
+
+#skills-aquired-list{
+    padding-top: 60px;
+    padding-right: 60px;
+}
+
+#skills-aquired-list ul li:nth-of-type(2n+1){
+    text-decoration: underline;
+}
+
+.margin-top{
+    margin-top: 30px;
+}
+
+.float-right{
+    float: right;
+}
+
+.float-left{
+    float: left;
+}
+
+.inline-box{
+    display: inline-block;
+}
