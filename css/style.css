@@ -20,8 +20,9 @@ asside{
     background-color: rgb(8, 8, 8);
 }
 
-h1,h2,h3 {
-    color: #db991f;
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(245, 245, 245);
     font-weight: 600;
 }
 
