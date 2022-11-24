@@ -29,12 +29,11 @@ a {
     display: inline-block;
     height: 100%;
     width: 30%;
-    background-color: rgb(8, 8, 8);
+    background-color: rgb(22, 22, 22);
 }
 
 #content-right{
     padding: 20px;
-    background-color: red;
     position: absolute;
     display: inline-block;
     height: 100%;
@@ -64,6 +63,14 @@ a {
     font-weight: 700;
 }
 
+#image-box{
+    border-radius: 25%;
+}
+
+#image-box img{
+    position: relative;
+    width: 200px;
+}
 #content-box{
     padding: 10px;
     display: table;
