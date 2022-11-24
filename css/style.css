@@ -13,13 +13,6 @@ body {
     line-height: 1.5;
 }
 
-asside{
-    display: inline-block;
-    position: absolute;
-    height: 100%;
-    background-color: rgb(8, 8, 8);
-}
-
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Ubuntu', sans-serif;
     color: rgb(245, 245, 245);
@@ -28,6 +21,22 @@ h1,h2,h3,h4,h5,h6 {
 
 a {
     text-decoration: none;
+}
+
+#content-left{
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 30%;
+    background-color: rgb(8, 8, 8);
+}
+
+#content-right{
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 75%;
+
 }
 
 #navbar{
