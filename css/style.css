@@ -39,6 +39,8 @@ main{
 }
 
 #content-left{
+    height: auto;
+    width: 20%;
     min-height: 600px;
     background-color: var(--color-black);
     padding-top: 200px;
@@ -64,6 +66,7 @@ main{
 }
 
 #content-right{
+    width: 70%;
     padding: 20px;
     position: absolute;
 }
@@ -80,25 +83,16 @@ main{
 }
 
 #presentation-box{
-    width: 400px;
     text-align: justify;
     margin-left: 100px;
-    margin-top: 180px;
-    position: absolute;
-}
-#name-box{
-    text-align: center;
+    padding-top: 180px;
 }
 
-#hero-title {
-    font-size: 3em;
-}
-
-#description-profile-box{
+#presentation-box p{
+    max-width: 400px;
 }
 
 #img-profile-box{
-    min-width: 35%;
     padding: 10px;
     background-color: rgba(128, 128, 128, 0.068);
 }
@@ -107,22 +101,31 @@ main{
     border-radius: 50%;
 }
 
-#skills-aquired-box{
-    height: 400px;
-    
+#listas-container-box{
+    margin-top: 70px;
+    padding: 30px;
+    padding-left: 270px;
 }
 
-#skills-aquired-box img{
-    width: 600px;
+#listas-container-box ul{
+    line-height: 50px;
+    list-style: none;
 }
 
-#skills-aquired-list{
-    padding-top: 60px;
-    padding-right: 60px;
+#listas-container-box ul li{
+    text-align: left;
+    font-size: 30px;
 }
 
-#skills-aquired-list ul li:nth-of-type(2n+1){
-    text-decoration: underline;
+#footer{
+    text-align: center;
+    margin-top: 30px;
+    background-color: var(--color-black);
+    padding: 30px;
+}
+
+.lista-box:nth-of-type(2n){
+    margin-left: 95px;
 }
 
 .absolute{
@@ -136,14 +139,7 @@ main{
 .inline-block{
     display: inline-block;
 }
-.margin-top{
-    margin-top: 30px;
-}
 
-.float-right{
-    float: right;
-}
-
-.float-left{
-    float: left;
+.row{
+    margin-top: 80px;
 }
