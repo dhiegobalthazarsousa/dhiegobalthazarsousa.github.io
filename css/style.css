@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?&family=Noto+Sans+Display&display=swap');
+/* font-family: 'Noto Sans Display', sans-serif; */
+
+:root{
+    --color-white: rgb(245, 245, 245);
+    --color-gray: #333333;
+    --color-black: rgb(22, 22, 22);
+}
 
 *{
     margin: 0;
@@ -6,68 +13,88 @@
 }
 
 body {
-    font-family: 'Ubuntu', sans-serif;
-    background-color: #1E101D;
-    color: white;
+    font-family: Noto Sans Display, sans-serif;
+    background-color: var(--color-gray);
+    color: var(--color-white);
     font-size: 16px;
     line-height: 1.5;
 }
 
-h1,h2,h3 {
-    color: #db991f;
-    font-weight: 600;
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+h1{
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 50px;
+    font-family: 'Noto Sans Display', sans-serif;
 }
 
 a {
     text-decoration: none;
 }
 
+main{
+}
+
+#content-left{
+    min-height: 600px;
+    background-color: var(--color-black);
+    padding-top: 200px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 #navbar{
     text-align: right;
-    padding: 20px;
-    background-color: rgb(31, 31, 31);
 }
 
-#navbar ul{
+#nav-bar ul li{
     list-style: none;
+    margin-top: 20px;
 }
 
-#navbar ul li{
-    display: inline;
-    margin-right: 10px;
+#nav-bar ul li a{
+    color: var(--color-white);
 }
 
-#navbar ul li a{
-    color:white;
-}
-
-#navbar ul li a:hover{
+#nav-bar ul li a:hover{
     font-weight: 700;
 }
 
-#content-box{
-    padding: 10px;
-    display: table;
+#content-right{
+    padding: 20px;
+    position: absolute;
 }
 
-#profile-box{
-    width: 80%;
-    margin-top: 30px;
-    margin-left:auto;
-    margin-right: auto;
+#image-box{
+    margin-left: 50px;
+    margin-top: 180px;
+}
+
+#image-box img{
+    border: 4px solid var(--color-black);
+    border-radius: 50%;
+    width: 240px;
+}
+
+#presentation-box{
+    width: 400px;
+    text-align: justify;
+    margin-left: 100px;
+    margin-top: 180px;
+    position: absolute;
 }
 #name-box{
     text-align: center;
 }
 
 #hero-title {
-    font-family: 'Bebas Neue', cursive;
     font-size: 3em;
 }
 
 #description-profile-box{
-    max-width: 60%;
-    text-align: justify;
 }
 
 #img-profile-box{
@@ -98,6 +125,17 @@ a {
     text-decoration: underline;
 }
 
+.absolute{
+    position: absolute;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.inline-block{
+    display: inline-block;
+}
 .margin-top{
     margin-top: 30px;
 }
@@ -108,8 +146,4 @@ a {
 
 .float-left{
     float: left;
-}
-
-.inline-box{
-    display: inline-block;
 }

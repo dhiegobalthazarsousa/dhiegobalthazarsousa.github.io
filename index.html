@@ -10,89 +10,81 @@
 </head>
 
 <body>
-    <div id="navbar">
-        <ul>
-            <li>
-                <a href="#about-me">Sobre Mim</a>
-            </li>
-            <li>
-                <a href="#skills-acquired">Habilidades Aprendidas</a>
-            </li>
-            <li>
-                <a href="#skills-learning">Habilidades em Apredizagem</a>
-            </li>
-            <li>
-                <a href="#blogs">Blogs</a>
-            </li>
-        </ul>
-    </div>
-    <div id="content-box">
-        <div id="header-box">
-            <div id="name-box">
-                <h1 id="hero-title">Dhiego Henrique Balthazar de Sousa</h1>
-                <h2><em>Estudante de desenvolvimento web na Trybe</em></h2>
-                <p id="nationality">Brasileiro, moro em Caraguatatuba - SP</p>
-            </div>
-            <div id="profile-box">
-                <div id="img-profile-box" class="inline-box">
-                    <img id="profile-image" src="/img/perfil.jpeg" alt="foto de perfil">
-                </div>
-                <div id="description-profile-box" class="inline-box">
-                    <h3 id="about-me">Sobre Mim</h3>
-                    <p>Sou estudante de Desenvolvimento WEB a Trybe e líder de setor na Diretoria de Ensino de
-                        Caraguatatuba.</p>
-                    <p>Fui instrutor de lógica de programação com PHP no Programa Escola da Familia em Escolas
-                        Estaduais,
-                        <strong>adoro</strong> aprender coisas novas, transmitir conhecimento e ver a evolução das
-                        pessoas.
-                    </p>
-                    <p>Nas minhas horas vagas eu jogo D&D5e com meus filhos e os ensino como criar jogos com o RPG
-                        maker.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div id="skills-aquired-box" class="margin-top">
-            <h3 id="skills-acquired">Habilidades adquiridas - Hard Skills</h3>
-            <div id="skills-aquired-img" class="inline-box float-right">
-                <img src="/img/skills.jpg" alt="imagem escrito skills">
-            </div>
-            <div id="skills-aquired-list" class="inline-box float-right">
-                <ul>
-                    <li>UML</li>
-                    <li>Modelagem de Banco de Dados</li>
-                    <li>SQL</li>
-                    <li>PHP</li>
-                    <li>Codeigniter</li>
-                    <li>Composer</li>
-                    <li>HTML5</li>
-                    <li>POO</li>
-                    <li>Planilhas GOOGLE e Excel(VBA)</li>
-                </ul>
+    <header id="header">
+    </header>
+    <main>
+        <aside id="content-left" class="inline-block"> 
+            <h2>MEU PORTIFÓLIO</h2>
+            <section id="nav-bar">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#about-me">Sobre Mim</a>
+                        </li>
+                        <li>
+                            <a href="#skills-acquired">Habilidades Aprendidas</a>
+                        </li>
+                        <li>
+                            <a href="#skills-learning">Habilidades em Apredizagem</a>
+                        </li>
+                        <li>
+                            <a href="#blogs">Blogs</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </aside>
 
-            </div>
-        </div>
-    </div>
+        <section id="content-right" class="inline-block">
+            <picture id="image-box" class="inline-block">
+                <img src="/img/avatar.jpg" alt="foto de perfil">
+            </picture>
+            <section id="presentation-box" class="inline-block">
+                <h1>DHIEGO<br>BALTHAZAR</h1>
+                <p class="italic">Brasileiro, moro em Caraguatatuba - SP</p>
+                <br>
+                <p>Sou estudante de Desenvolvimento WEB na Trybe e estou em transição de carreira para a área de
+                    tecnologia.</p>
+            </section>
+            <!-- <ul>
+                <li>Unix & Bash</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Soft Skils</li>
+            </ul>
+            <a href="#profile-image">Voltar para foto</a>
+            <hr>
+            <h3 id="blogs">Blogs que Sigo</h3>
+            <ul>
+                <li><a href="https://developerslife.tech/pt/" target="_blank">Vida de Programador</a></li>
+                <li><a href="https://meublogderpg.wordpress.com/tag/dd-5e/" target="_blank">Meu Blog de RPG</a></li>
+            </ul>
+            <a href="#profile-image">Voltar para foto</a>
+            <div id="skills-aquired-box" class="margin-top">
+                <h3 id="skills-acquired">Habilidades adquiridas - Hard Skills</h3>
+                <div id="skills-aquired-img" class="inline-box float-right">
+                    <img src="/img/skills.jpg" alt="imagem escrito skills">
+                </div>
+                <div id="skills-aquired-list" class="inline-box float-right">
+                    <ul>
+                        <li>UML</li>
+                        <li>Modelagem de Banco de Dados</li>
+                        <li>SQL</li>
+                        <li>PHP</li>
+                        <li>Codeigniter</li>
+                        <li>Composer</li>
+                        <li>HTML5</li>
+                        <li>POO</li>
+                        <li>Planilhas GOOGLE e Excel(VBA)</li>
+                    </ul>
 
-    <a href="#profile-image">Voltar para foto</a>
-    <hr>
-    <h3 id="skills-learning">Habilidades em aprendizagem - Trybe</h3>
-    <img src="/img/learning.jpeg" alt="imagem escrito learning">
-    <ul>
-        <li>Unix & Bash</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
-        <li>Soft Skils</li>
-    </ul>
-    <a href="#profile-image">Voltar para foto</a>
-    <hr>
-    <h3 id="blogs">Blogs que Sigo</h3>
-    <ul>
-        <li><a href="https://developerslife.tech/pt/" target="_blank">Vida de Programador</a></li>
-        <li><a href="https://meublogderpg.wordpress.com/tag/dd-5e/" target="_blank">Meu Blog de RPG</a></li>
-    </ul>
-    <a href="#profile-image">Voltar para foto</a>
+                </div>
+            </div> -->
+        </section>
+
+    </main>
+
 </body>
 
 </html>
