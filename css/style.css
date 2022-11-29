@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans+Display&family=Rubik+Dirt&display=swap');
+/* font-family: 'Rubik Dirt', cursive; */
+/* font-family: 'Noto Sans Display', sans-serif; */
+/* font-family: 'Anton', sans-serif; */
 
 *{
     margin: 0;
@@ -15,9 +18,11 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: Ubuntu, sans-serif;
-    color: rgb(245, 245, 245);
-    font-weight: 600;
+    font-family: 'Anton', sans-serif;
+}
+
+h1{
+    font-size: 30px;
 }
 
 a {
@@ -28,7 +33,6 @@ main{
 }
 
 #content-left{
-    display: inline-block;
     height: 768px;
     background-color: rgb(22, 22, 22);
 }
@@ -36,7 +40,6 @@ main{
 #content-right{
     padding: 20px;
     position: absolute;
-    display: inline-block;
 }
 
 #navbar{
@@ -151,8 +154,4 @@ main{
 
 .float-left{
     float: left;
-}
-
-.inline-box{
-    display: inline-block;
 }
