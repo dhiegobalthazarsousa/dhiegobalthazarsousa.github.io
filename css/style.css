@@ -24,11 +24,12 @@ a {
     text-decoration: none;
 }
 
+main{
+}
+
 #content-left{
-    padding: 20px;
     display: inline-block;
-    height: 100%;
-    width: 30%;
+    height: 768px;
     background-color: rgb(22, 22, 22);
 }
 
@@ -36,12 +37,6 @@ a {
     padding: 20px;
     position: absolute;
     display: inline-block;
-    height: 100%;
-    width: 65%;
-}
-
-#content-right .inline-block{
-    position: absolute;
 }
 
 #navbar{
@@ -77,17 +72,15 @@ a {
 }
 
 #image-box{
+    margin-left: 50px;
+    margin-top: 200px;
     display: inline-block;
-    border-radius: 25%;
 }
 
 #image-box img{
+    border-radius: 50%;
     position: relative;
     width: 200px;
-}
-#content-box{
-    padding: 10px;
-    display: table;
 }
 
 #profile-box{
