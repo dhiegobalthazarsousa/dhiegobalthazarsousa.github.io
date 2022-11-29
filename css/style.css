@@ -39,6 +39,7 @@ main{
 }
 
 #content-left{
+    height: auto;
     width: 20%;
     min-height: 600px;
     background-color: var(--color-black);
@@ -100,24 +101,31 @@ main{
     border-radius: 50%;
 }
 
-#listas-box{
-    margin-left: auto;
-    margin-right: auto;
+#listas-container-box{
+    margin-top: 70px;
+    padding: 30px;
+    padding-left: 270px;
 }
 
-#listas-box ul{
+#listas-container-box ul{
     line-height: 50px;
     list-style: none;
 }
 
-#listas-box ul li{
+#listas-container-box ul li{
     text-align: left;
     font-size: 30px;
 }
 
-.lista-box{
+#footer{
     text-align: center;
-    margin-left: 65px;
+    margin-top: 30px;
+    background-color: var(--color-black);
+    padding: 30px;
+}
+
+.lista-box:nth-of-type(2n){
+    margin-left: 95px;
 }
 
 .absolute{
